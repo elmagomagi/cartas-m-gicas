@@ -86,22 +86,39 @@ body {
   position: absolute;
   width: 60px;
   height: 60px;
-  border-radius: 45% 55% 45% 55%;
-  background: radial-gradient(circle at top, #ff79c8, #ff2b7c 70%);
+  border-radius: 50% 50% 45% 45%;
+  background: radial-gradient(circle at 30% 30%, #ffd6ef, #ff2b7c 70%);
+  box-shadow: inset -6px -6px 12px rgba(180, 0, 80, 0.4);
 }
 
 .rose__bloom span:nth-child(2) {
   width: 45px;
   height: 45px;
-  background: radial-gradient(circle at top, #ffb0de, #ff4aa0 75%);
-  transform: rotate(25deg) translate(6px, 4px);
+  background: radial-gradient(circle at 30% 30%, #ffe6f5, #ff4aa0 75%);
+  transform: rotate(20deg) translate(12px, -2px);
 }
 
 .rose__bloom span:nth-child(3) {
-  width: 30px;
-  height: 30px;
-  background: radial-gradient(circle at top, #ffd6ef, #ff5fb6 75%);
-  transform: rotate(-20deg) translate(-3px, -2px);
+  width: 45px;
+  height: 45px;
+  background: radial-gradient(circle at 30% 30%, #ffe6f5, #ff4aa0 75%);
+  transform: rotate(-20deg) translate(-12px, -2px);
+}
+
+.rose__bloom span:nth-child(4) {
+  width: 34px;
+  height: 34px;
+  background: radial-gradient(circle at 30% 30%, #fff0fa, #ff69b4 75%);
+  transform: rotate(15deg) translate(6px, 10px);
+  border-radius: 50% 50% 50% 50%;
+}
+
+.rose__bloom span:nth-child(5) {
+  width: 26px;
+  height: 26px;
+  background: radial-gradient(circle at 30% 30%, #fff6fb, #ff77c0 75%);
+  transform: rotate(-10deg) translate(-4px, 12px);
+  border-radius: 50% 50% 50% 50%;
 }
 
 .rose__stem {
